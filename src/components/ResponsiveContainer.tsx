@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
 
 interface ResponsiveContainerProps {
-  className: string;
+  className?: string;
   children: ReactNode;
 }
 
@@ -10,7 +10,7 @@ const ResponsiveContainer = ({
   children,
 }: ResponsiveContainerProps) => {
   return (
-    <div className={`max-w-6xl mx-auto lg:px-0 sm:px-10 px-5 ${className}`}>
+    <div className={`max-w-7xl mx-auto lg:px-0 sm:px-10 px-5 ${className}`}>
       {children}
     </div>
   );
