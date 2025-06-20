@@ -1,12 +1,13 @@
-import './App.css'
+import "./App.css";
+import Navbar from "./components/Navbar";
 
 function App() {
-
   return (
     <>
-     Hello world from job task.
+      <Navbar />
+      
     </>
-  )
+  );
 }
 
-export default App
+export default App;
